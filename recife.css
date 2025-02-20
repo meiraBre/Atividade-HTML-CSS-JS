@@ -1,54 +1,10 @@
-.home {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items:center; /* Centraliza verticalmente */
-    background-color: rgb(138, 160, 160);
-    color: rgb(239, 240, 241);
-    height: 60px;
-}
-
 body {
     background-color: #f0f0f0; /* Cor de fundo cinza claro */
 }
-
 .titulo-1 {
     text-align: center;
     color: rgb(67, 93, 93); 
 }
-
-.titulos {
-    text-align: center; /* Centraliza o texto */
-    font-size: 24px; /* Ajusta o tamanho da fonte */
-    color: rgb(67, 93, 93);; /* Cor do texto */
-    font-weight: bold; /* Deixa o texto em negrito */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    padding: 10px; /* Espaçamento interno */
-    background-color: #f8f9fa; /* Fundo leve para destaque */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-ol {
-    list-style: none; /* Remove os números da lista */
-    padding: 0;
-}
-
-ol li {
-    margin-bottom: 10px; /* Espaçamento entre os botões */
-}
-
-ol li a {
-    color: rgb(22, 159, 189); /* Cor do texto */
-    text-decoration: none; /* Remove o sublinhado */
-    border-radius: 5px; /* Borda arredondada */
-    font-size: 16px;
-    transition: background 0.3s ease;
-}
-
-ol li a:hover {
-    color: #0056b3; /* Cor mais escura ao passar o mouse */
-}
-
 .titulo-2 {
     text-align: center; /* Centraliza o texto */
     font-size: 24px; /* Ajusta o tamanho da fonte */
@@ -60,7 +16,25 @@ ol li a:hover {
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
-
+.titulos {
+    text-align: center; /* Centraliza o texto */
+    font-size: 24px; /* Ajusta o tamanho da fonte */
+    color: rgb(67, 93, 93);; /* Cor do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #f8f9fa; /* Fundo leve para destaque */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+.home {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items:center; /* Centraliza verticalmente */
+    background-color: rgb(138, 160, 160);
+    color: rgb(239, 240, 241);
+    height: 60px;
+}
 .caixa {
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +43,6 @@ ol li a:hover {
     padding: 0;
     list-style: none;
 }
-
 .item {
     display: flex;
     flex-direction: column;
@@ -77,10 +50,27 @@ ol li a:hover {
     text-align: center;
     width: 300px;
 }
-
 img {
     border-radius: 10px;
 }
+ol {
+    list-style: none; /* Remove os números da lista */
+    padding: 0;
+}
+ol li {
+    margin-bottom: 10px; /* Espaçamento entre os botões */
+}
+ol li a {
+    color: rgb(22, 159, 189); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+ol li a:hover {
+    color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
 
 
 
