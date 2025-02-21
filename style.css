@@ -17,6 +17,11 @@ h2 {
     color: rgb(67, 93, 93); 
 }
 
-.img {
+img {
     border-radius: 10px;
+    align-items: center;
+}
+
+body {
+    background-color: #f0f0f0;
 }
