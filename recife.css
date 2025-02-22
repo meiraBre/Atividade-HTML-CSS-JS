@@ -29,11 +29,11 @@ body {
 }
 .home {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items:center; /* Centraliza verticalmente */
+    justify-content: flex-start; 
+    align-items:flex-start; 
     background-color: rgb(138, 160, 160);
-    color: rgb(239, 240, 241);
     height: 60px;
+    padding: 10px;
 }
 .caixa {
     display: flex;
@@ -59,6 +59,8 @@ ol {
 }
 ol li {
     margin-bottom: 10px; /* Espaçamento entre os botões */
+    display: flex;
+    justify-content: center;
 }
 ol li a {
     color: rgb(22, 159, 189); /* Cor do texto */
