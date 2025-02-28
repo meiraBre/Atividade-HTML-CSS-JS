@@ -1,8 +1,7 @@
-function conexaoJs(){
-    for (i=0; i>3; i++) {
-      console.log("Conexão feita com sucesso!");
+function conexaoJs() {
+    for (let i = 0; i < 3; i++) {  // Correção: i < 3
+        console.log("Conexão feita com sucesso!");
     }
 }
 
 conexaoJs();
-
